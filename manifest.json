@@ -1,15 +1,15 @@
 {
-  "required_api_version": "^2.0.0",
+  "required_api_version": "2",
   "name": "Window Switcher",
   "description": "Find and switch Linux/X11 windows by name",
   "developer_name": "Duncan Lock",
   "icon": "images/window.svg",
   "options": {
-    "query_debounce": 0.3
+    "query_debounce": 0.2
   },
   "preferences": [
     {
-      "id": "window_switcher_kw",
+      "id": "window_switcher",
       "type": "keyword",
       "name": "Window Switcher",
       "default_value": "w"
